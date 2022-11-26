@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/quillaudits/static/css/main.66428b30.css",
-    "main.js": "/quillaudits/static/js/main.db7db644.js",
+    "main.css": "/quillaudits/static/css/main.931b9d60.css",
+    "main.js": "/quillaudits/static/js/main.105d9aa8.js",
     "index.html": "/quillaudits/index.html",
-    "main.66428b30.css.map": "/quillaudits/static/css/main.66428b30.css.map",
-    "main.db7db644.js.map": "/quillaudits/static/js/main.db7db644.js.map"
+    "main.931b9d60.css.map": "/quillaudits/static/css/main.931b9d60.css.map",
+    "main.105d9aa8.js.map": "/quillaudits/static/js/main.105d9aa8.js.map"
   },
   "entrypoints": [
-    "static/css/main.66428b30.css",
-    "static/js/main.db7db644.js"
+    "static/css/main.931b9d60.css",
+    "static/js/main.105d9aa8.js"
   ]
 }
