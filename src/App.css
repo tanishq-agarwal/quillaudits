@@ -104,8 +104,13 @@ nav .navLeft {
   display: flex;
   width: 62rem;
 }
+/* .nav-heading{
+  background: url('../public/img/logo1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 .navLeft .navheader {
-  width: 4rem;
+  width: 22rem;
   height: 4rem;
   text-align: center;
   font-size: 3rem;
@@ -274,7 +279,8 @@ nav ul li a {
   font-size: 4rem;
 }
 .meals-img {
-  margin-left: 12rem;
+  margin-top: 6rem;
+  margin-left:  20rem;
 }
 .meals-img img {
   width: 66rem;
@@ -402,8 +408,8 @@ nav ul li a {
   nav ul li a{
     color: #0b1f50;
   }
-  .meals-img lottie-player {
-    width: 74%;
+  .meals-img {
+    margin-left: 0;
 }
   .meals-near-you{
     margin-top: 3rem;
@@ -905,6 +911,13 @@ nav ul li a {
   }
 }
 @media (max-width: 500px) {
+  .meals-img svg{
+    width: 80% !important;
+    height: 80% !important;
+  }
+  .meals-img div{
+    width: 300px !important;
+  }
   .price{
     height: 12rem;
   }

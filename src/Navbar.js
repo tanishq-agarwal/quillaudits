@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import './App.css';
+import logo from "./img/logo.png"
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
@@ -13,7 +14,7 @@ const Navbar = () => {
                         <div className='navLeft '>
                             <NavLink to="/" className='navlink mNavLink'>
                                 <div className='nav-heading'>
-                                    <div className='navheader'><img src="./img/logo.svg" alt="logo"></img></div>
+                                    <div className='navheader'><img src={logo} alt="logo"></img></div>
                                    
                                 </div>
                             </NavLink>

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FiYoutube } from "react-icons/fi";
 import { GrClose } from "react-icons/gr";
+import Lottie from 'react-lottie';
+import animationData from "./lotties/81943.json";
 
 const About = () => {
 
@@ -8,6 +10,15 @@ const About = () => {
     const getImg = () => {
         setModel(true);
     };
+
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+        rendererSettings: {
+          preserveAspectRatio: "xMidYMid slice"
+        }
+      };
 
     return (
         <>
@@ -20,7 +31,7 @@ const About = () => {
                     <div className="meals-near-you">
                         <div className="meal-items">
                             <h2 className="title">
-                            Emerging Web3 Ventures Trust Our Smart Contract Audits & Diligence Services
+                                Emerging Web3 Ventures Trust Our Smart Contract Audits & Diligence Services
                             </h2>
                             <p className="main-hero-para">QuillAudits, Making web3 a safer place</p>
                             <div className='order'>
@@ -34,7 +45,12 @@ const About = () => {
                     </div>
 
                     <div className="meals-img">
-                    <lottie-player src="81943.json" background="transparent" speed="1"></lottie-player>
+                        <Lottie
+                            options={defaultOptions}
+                            height={400}
+                            width={400}
+                        />
+
                     </div>
                 </div>
 
